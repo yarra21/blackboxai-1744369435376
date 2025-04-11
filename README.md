@@ -7,68 +7,54 @@ Built by https://www.blackbox.ai
 # ROXEN.FPS
 
 ## Project Overview
-ROXEN.FPS is a web project designed to provide users with advanced gaming cheat solutions for various games, with a primary focus on **Valorant**. The website showcases the products, features, and the dedicated support team to ensure users have the best gaming experience possible. The design incorporates modern CSS animations and effects to enhance user interaction.
+ROXEN.FPS is designed to enhance the gaming experience through advanced tools and services, focusing on providing cheat solutions for games like VALORANT while ensuring user security and satisfaction. This web project showcases the offerings and features of ROXEN.FPS, including modern styles and animations, supported services, and user-friendly interfaces.
 
 ## Installation
-To get started with the ROXEN.FPS project, you need to clone the repository to your local machine and open the HTML files in a web browser. 
+To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
    cd roxen-fps
    ```
 
-3. Open the HTML files (e.g., `index.html`, `urunler.html`, etc.) in a web browser.
+2. Open the index.html file in a web browser to view the site.
 
-> Note: Ensure you are connected to the internet to load external CSS files and fonts.
+3. Ensure you have an internet connection to load external resources like Tailwind CSS and Font Awesome.
 
 ## Usage
-Once the project is installed, you can navigate through multiple sections of the website:
-
-- **Home Page:** Displays an overview of what ROXEN.FPS offers.
-- **Products Page:** Provides detailed product descriptions and access to purchase links.
-- **About Us Page:** Shares the history and mission of ROXEN.FPS.
-- **Contact Page:** Allows users to reach out for support or inquiries.
-
-Simply open the respective HTML files in a web browser to view the content.
+After opening the `index.html` file:
+- Navigate through the various sections: Home, Products, About Us, and Contact Us.
+- Explore the products offered, detailed in the Products section, specifically targeted at game cheating solutions.
 
 ## Features
-- Responsive design utilizing Tailwind CSS for a modern look and feel.
-- CSS animations for interactive user experience.
-- Detailed information about products and features.
-- 24/7 customer support through various channels.
-- Instant product activation and secure transactions.
+- **Responsive Layout**: Mobile-first design that adjusts seamlessly across devices.
+- **Animations**: Eye-catching animations for transitions, buttons, and other elements.
+- **Dynamic Content**: Sections displaying information about products, features, and support.
+- **Contact Form**: A contact section allowing users to reach out for support or inquiries.
 
 ## Dependencies
-The project utilizes the following dependencies:
-- **Tailwind CSS**: For styling the layout and components.
-- **Font Awesome**: For icons across the website.
-- **Google Fonts**: Custom fonts (Orbitron and Inter) for the UI.
+This project uses the following libraries:
+- [Tailwind CSS](https://tailwindcss.com/) for styling.
+- [Font Awesome](https://fontawesome.com/) for icons.
 
-To include them, the following links are used in the `<head>` section of the HTML files:
-```html
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-```
+No dependencies are listed in a `package.json` file as this project does not utilize Node.js or similar environments.
 
 ## Project Structure
-Here is a basic overview of the project structure:
-
 ```
-roxen-fps/
-├── index.html          # Home page
-├── hakkimizda.html     # About Us page
-├── iletisim.html       # Contact page
-├── urunler.html        # Products page
-├── valorant_hileler.html # Valorant product details
-├── styles.css          # Main styles for the website
-└── <!DOCTYPE html>     # This file is included in other HTML files for the structure
+/roxen-fps
+│
+├── index.html           # Main landing page
+├── hakkimizda.html      # About Us page
+├── urunler.html         # Products page
+├── iletisim.html        # Contact page
+├── valorant_hileler.html # Specific product page for Valorant hacks
+├── styles.css           # Custom styles for the website
+│
 ```
 
 ## Conclusion
-ROXEN.FPS aims to deliver top-notch gaming experiences through its innovative solutions. For any queries or support, feel free to contact us through the contact page.
-```
+ROXEN.FPS aims to provide top-notch gaming solutions while ensuring a secure and user-friendly experience. For further questions or clarifications, feel free to reach out through the contact form available on the site.
+``` 
+
+This README provides a structured overview of the project and covers all relevant sections to help users and developers understand how to use and contribute to the project effectively.
